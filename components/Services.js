@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 const Services = () => {
   return (
     <div className={styles.services}>
-      <div>
+      <div className={styles.service}>
         <h4>Prevoz putnika</h4>
       </div>
 
