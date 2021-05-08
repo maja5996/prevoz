@@ -40,9 +40,24 @@
 
 .services {
   display: flex;
-
   h4 {
-    font-size: 5em;
+    font-size: 3em;
+    font-family: $ont-main;
+  }
+}
+
+.service {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 14px;
+  width: 25%;
+  height: 20em;
+
+  p {
+    padding-top: 9em;
+    text-align: justify;
   }
 }
 
